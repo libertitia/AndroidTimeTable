@@ -32,14 +32,14 @@ public class HeadView extends LinearLayout{
 
 	protected void init() {
 		LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-		//inflater.inflate(R.layout.main_head, this);
+		inflater.inflate(R.layout.main_head, this);
 
-		//dayImg = (ImageView) findViewById(R.id.main_head_day);
+		dayImg = (ImageView) findViewById(R.id.main_head_day);
 	}
 
 
 	/* 占쏙옙占쏙옙 占쏙옙 占쏙옙占�화占쏙옙 */
 	public void show(int day_of_week) {
-		//dayImg.setImageResource(dayImgIds[day_of_week]);
+		dayImg.setImageResource(dayImgIds[day_of_week]);
 	}
 }
