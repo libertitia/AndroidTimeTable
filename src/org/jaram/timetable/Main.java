@@ -3,6 +3,7 @@ package org.jaram.timetable;
 import org.jaram.Model.FileManage;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 
 public class Main extends Activity {
@@ -21,6 +22,6 @@ public class Main extends Activity {
         
 		
         ViewControl VC = new ViewControl(this);
-
+        VC.cMain = this;
     }
 }

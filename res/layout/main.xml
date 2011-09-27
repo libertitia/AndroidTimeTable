@@ -4,11 +4,12 @@
 	android:orientation="vertical"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
+
+		<!--
 	<org.jaram.views.HeadView
 		android:id="@+id/main_header"
 		style="@style/DefaultWrap" />
 
-		<!--
 	<org.jaram.views.BodyView
 		android:id="@+id/main_pager"
 		style="@style/DefaultFill">
